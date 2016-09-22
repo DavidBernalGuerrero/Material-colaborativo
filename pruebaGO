@@ -4,7 +4,11 @@ import "fmt"
 
 func main() {
 var valor1, valor2 int = 4, 2
-var operador string = "-"
+fmt.Println("Los valores son:", valor1, "y", valor2)
+
+var operador string = "x"
+fmt.Println("El operador es:", operador)
+
 var resultado int
 
 switch operador {
@@ -18,6 +22,6 @@ switch operador {
     resultado = valor1 / valor2
 }
 
-fmt.Println(resultado)
+fmt.Println("El resultado es:", resultado)
 
 }
