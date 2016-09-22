@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+var valor1, valor2 int = 4, 2
+var operador string = "-"
+var resultado int
+
+switch operador {
+  case "+":
+    resultado = valor1 + valor2
+  case "-":
+    resultado = valor1 - valor2
+  case "x":
+    resultado = valor1 * valor2
+  case "/":
+    resultado = valor1 / valor2
+}
+
+fmt.Println(resultado)
+
+}
